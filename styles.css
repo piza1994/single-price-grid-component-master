@@ -1,0 +1,106 @@
+:root {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.title {
+    background-color: white;
+    padding: 2rem;
+}
+
+.title h3 {
+    margin: 0;
+    color: hsl(179, 62%, 43%);
+}
+
+.title h4 {
+    color: hsl(71, 73%, 54%);
+}
+
+.title p {
+    color: hsl(218, 22%, 67%);
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.card {
+    padding: 2rem;
+}
+
+.left {
+    flex: 0 0 100%;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.time {
+    font-weight: 100;
+    vertical-align: middle;
+    margin-left: 1rem;
+}
+.right {
+    flex: 0 0 100%;
+    background-color: hsl(179, 62%, 49%);;
+}
+
+.param {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.sign-up {
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    background-color: hsl(71, 73%, 54%);
+}
+
+.right p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+h5 {
+    font-weight: 100;
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+        width: 800px;
+        margin: 0 auto;
+        margin-top:6rem;
+        background-color: hsl(204, 43%, 93%);
+    }
+
+    .left {
+        flex: 0 0 50%;
+        background-color: hsl(179, 62%, 43%);
+    }
+
+    .right {
+        flex: 0 0 50%;
+        background-color: hsl(179, 62%, 49%);;
+    }
+}
